@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1D2E"/>
+      <stop offset="100%" stop-color="#102A42"/>
+    </linearGradient>
+    <clipPath id="win">
+      <rect x="8" y="8" width="1264" height="384" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="8" y="8" width="1264" height="384" rx="14" fill="url(#sky)" stroke="#1B3A5C" stroke-width="2"/>
+
+  <g clip-path="url(#win)">
+    <!-- horizon glow -->
+    <rect x="8" y="250" width="1264" height="142" fill="#12314C" opacity="0.55"/>
+
+    <!-- Castello Aragonese silhouette -->
+    <g fill="#1B3A5C" opacity="0.75">
+      <!-- causeway to the island -->
+      <path d="M 700 300 L 878 292 L 878 302 L 700 308 Z"/>
+      <!-- rock islet, steep like the real one -->
+      <path d="M 886 306 L 900 254 L 918 214 L 944 188 L 978 172 L 1018 166 L 1058 172 L 1094 190 L 1122 222 L 1142 262 L 1154 306 Z"/>
+      <!-- fortress walls with battlements -->
+      <path d="M 934 192 L 934 158 L 944 158 L 944 146 L 958 146 L 958 158 L 972 158 L 972 146 L 986 146 L 986 158 L 1000 158 L 1000 146 L 1014 146 L 1014 158 L 1028 158 L 1028 146 L 1042 146 L 1042 158 L 1056 158 L 1056 146 L 1070 146 L 1070 158 L 1082 158 L 1082 196 Z"/>
+      <!-- keep tower -->
+      <path d="M 1002 146 L 1002 104 L 1012 104 L 1012 92 L 1026 92 L 1026 104 L 1040 104 L 1040 92 L 1054 92 L 1054 104 L 1064 104 L 1064 158 L 1002 158 Z"/>
+    </g>
+    <!-- windows lit in the fortress -->
+    <g fill="#E8862A" opacity="0.8">
+      <rect x="1018" y="118" width="7" height="11"/>
+      <rect x="1040" y="118" width="7" height="11"/>
+      <rect x="956" y="170" width="7" height="11"/>
+      <rect x="1062" y="172" width="7" height="11"/>
+      <rect x="1004" y="204" width="7" height="11"/>
+    </g>
+
+    <!-- sea -->
+    <g stroke="#2F6FA3" fill="none" stroke-width="3" stroke-linecap="round" opacity="0.45">
+      <path d="M 640 322 q 22 -10 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0"/>
+      <path d="M 620 348 q 22 -10 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0"/>
+      <path d="M 660 374 q 22 -10 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0 t 44 0"/>
+    </g>
+
+    <!-- title bar -->
+    <rect x="8" y="8" width="1264" height="46" fill="#16324D"/>
+    <line x1="8" y1="54" x2="1272" y2="54" stroke="#1B3A5C" stroke-width="2"/>
+    <circle cx="40" cy="31" r="7" fill="#FF5F56"/>
+    <circle cx="64" cy="31" r="7" fill="#FFBD2E"/>
+    <circle cx="88" cy="31" r="7" fill="#27C93F"/>
+    <text x="640" y="37" font-size="17" fill="#7E9AB5" text-anchor="middle">riccardo@radlab: ~</text>
+
+    <!-- terminal session -->
+    <g font-size="20">
+      <text x="40" y="102">
+        <tspan fill="#E8862A">riccardo@radlab</tspan><tspan fill="#7E9AB5">:</tspan><tspan fill="#6CB8B3">~</tspan><tspan fill="#7E9AB5">$ </tspan><tspan fill="#F7F3EE">whoami</tspan>
+      </text>
+      <text x="40" y="132" fill="#87A878">Riccardo M'rad, founder of RAD LAB</text>
+
+      <text x="40" y="176">
+        <tspan fill="#E8862A">riccardo@radlab</tspan><tspan fill="#7E9AB5">:</tspan><tspan fill="#6CB8B3">~</tspan><tspan fill="#7E9AB5">$ </tspan><tspan fill="#F7F3EE">cat what-i-do.txt</tspan>
+      </text>
+      <text x="40" y="206" fill="#87A878">I automate local businesses in Italy: WhatsApp bookings,</text>
+      <text x="40" y="234" fill="#87A878">reminders, review follow-ups. n8n + Claude Code.</text>
+
+      <text x="40" y="278">
+        <tspan fill="#E8862A">riccardo@radlab</tspan><tspan fill="#7E9AB5">:</tspan><tspan fill="#6CB8B3">~</tspan><tspan fill="#7E9AB5">$ </tspan><tspan fill="#F7F3EE">ls shipped/</tspan>
+      </text>
+      <text x="40" y="308" fill="#87A878">menulampo/   n8n-templates/   claude-skills/</text>
+
+      <text x="40" y="352">
+        <tspan fill="#E8862A">riccardo@radlab</tspan><tspan fill="#7E9AB5">:</tspan><tspan fill="#6CB8B3">~</tspan><tspan fill="#7E9AB5">$ </tspan><tspan fill="#F7F3EE">_</tspan>
+      </text>
+    </g>
+
+    <!-- made in Italy -->
+    <g transform="translate(1060, 336)">
+      <rect x="0" y="0" width="14" height="26" fill="#008C45"/>
+      <rect x="14" y="0" width="14" height="26" fill="#F4F5F0"/>
+      <rect x="28" y="0" width="14" height="26" fill="#CD212A"/>
+      <rect x="0" y="0" width="42" height="26" fill="none" stroke="#1B3A5C" stroke-width="1"/>
+      <text x="54" y="19" font-size="17" fill="#7E9AB5">Made in Italy</text>
+    </g>
+  </g>
+</svg>
