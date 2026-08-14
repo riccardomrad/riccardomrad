@@ -1,4 +1,4 @@
-<img src="assets/banner-braille.png" alt="Terminal window with the Castello Aragonese drawn with terminal characters: Riccardo M'rad, founder of RAD LAB, automation for local businesses in Italy" width="100%">
+<img src="assets/banner-crt.png" alt="Terminal window with the Castello Aragonese drawn with terminal characters: Riccardo M'rad, founder of RAD LAB, automation for local businesses in Italy" width="100%">
 
 # Hi, I'm Riccardo 👋
 
