@@ -1,4 +1,4 @@
-<img src="assets/banner.png" alt="Finestra di terminale: Riccardo M'rad, fondatore di RAD LAB, automazione per le attività locali in Italia" width="100%">
+<img src="assets/banner-terminal.png" alt="Finestra di terminale: Riccardo M'rad, fondatore di RAD LAB, automazione per le attività locali in Italia" width="100%">
 
 # Ciao, sono Riccardo 👋
 
